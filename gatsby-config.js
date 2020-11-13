@@ -31,11 +31,7 @@ module.exports = {
       options: {
         navigation: [
           {
-<<<<<<< HEAD
             title: `All Posts`,
-=======
-            title: `Blog`,
->>>>>>> d7557f953b1af2e75fa41726342360e210ba698d
             slug: `/blog`,
           },
           {
@@ -46,7 +42,6 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-<<<<<<< HEAD
             url: `https://twitter.com/rajatguptaa57`,
           },
           {
@@ -56,13 +51,6 @@ module.exports = {
           {
             name: `Portfolio`,
             url: `https://rajatgupta.tech`,
-=======
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
->>>>>>> d7557f953b1af2e75fa41726342360e210ba698d
           },
         ],
       },
@@ -77,15 +65,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-<<<<<<< HEAD
         name: `Rajat Gupta`,
         short_name: `Rajat's`,
         description: `An amalgamation of my thoughts, books and tech`,
-=======
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
->>>>>>> d7557f953b1af2e75fa41726342360e210ba698d
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
