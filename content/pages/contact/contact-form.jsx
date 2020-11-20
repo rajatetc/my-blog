@@ -1,9 +1,11 @@
 import React from 'react';
 
-const ContactForm = () => {
+const Contact = () => {
     return (
         <>
             <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact" />
+
                 <p>
                     <label>Email: <input type="text" name="name" /></label>
                 </p>
@@ -20,5 +22,5 @@ const ContactForm = () => {
     )
 }
 
-export default ContactForm;
+export default Contact;
 
