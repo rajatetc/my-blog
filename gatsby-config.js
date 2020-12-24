@@ -7,21 +7,21 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 module.exports = {
   siteMetadata: {
     // Used for the title template on pages other than the index site
-    siteTitle: `Rajat Gupta`,
+    siteTitle: `Jinsei`,
     // Default title of the page
-    siteTitleAlt: `Rajat Gupta`,
+    siteTitleAlt: `Jinsei`,
     // Can be used for e.g. JSONLD
-    siteHeadline: `Rajat Gupta`,
+    siteHeadline: `Jinsei`,
     // Will be used to generate absolute URLs for og:image etc.
     siteUrl: `https://guptarajat.me`,
     // Used for SEO
-    siteDescription: `An amalgamation of my thoughts, books, and tech.`,
+    siteDescription: `Writings on living`,
     // Will be set on the <html /> tag
     siteLanguage: `en`,
     // Used for og:image and must be placed inside the `static` folder
     siteImage: ``,
     // Twitter Handle
-    author: `@rajatguptaa57`,
+    author: `@rajatetc`,
     // Links displayed in the header on the right side
   },
   plugins: [
@@ -35,23 +35,15 @@ module.exports = {
             slug: `/blog`,
           },
           {
-            title: `About`,
+            title: `About Me`,
             slug: `/about`,
           },
         ],
         externalLinks: [
-          {
-            name: `Twitter`,
-            url: `https://twitter.com/rajatguptaa57`,
-          },
-          {
-            name: `Medium`,
-            url: `https://www.medium.com/@rajatguptaa57/`,
-          },
-          {
-            name: `Portfolio`,
-            url: `https://rajatgupta.tech`,
-          },
+          // {
+          //   name: `Twitter`,
+          //   url: `https://twitter.com/rajatetc`,
+          // },
         ],
       },
     },
@@ -65,9 +57,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rajat Gupta`,
-        short_name: `Rajat's`,
-        description: `An amalgamation of my thoughts, books and tech`,
+        name: `Jinsei`,
+        short_name: `Jinsei`,
+        description: `Writings on living`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
